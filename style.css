@@ -21,20 +21,16 @@ body {
 .container {
   display: flex;
   justify-content: center;
-  width: 600px;
+  width: 700px;
   border-radius: 50px;
 }
 .blue {
   color: white;
-  padding: 20px;
-  width: 40%;
+  padding-inline: 25px;
+  padding-block: 30px;
+  width: 45%;
   border-radius: 20px;
   text-align: center;
-  /* background-color: var(--Light-slate-blue); */
-  /* background-color: linear-gradient(
-    var(--Light-royal-blue),
-    var(--Light-slate-blue)
-  ); */
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
@@ -51,17 +47,27 @@ body {
   margin: auto;
 }
 .white {
-  box-shadow: inset 1px 1px 12px 0px rgba(50, 28, 111, 0.345);
-  border-radius: 20px;
+  /* box-shadow: inset 1px 1px 12px 0px rgba(50, 28, 111, 0.345); */
+
+  box-shadow: rgba(0, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px 20px 20px 0px;
   width: 50%;
-  padding: 20px;
+  /* padding: 20px; */
+  padding-inline: 25px;
+  padding-block: 30px;
 }
 .white h4 {
   font-size: 1.2em;
+  color: hsl(224, 30%, 27%);
 }
 .small-score {
   font-weight: bold;
   font-size: 4em;
+}
+ .score-corner span {
+  font-size: 18px;
+  font-weight: bold;
+  vertical-align: top;
 }
 .score-reaction,
 .score-Memory,
@@ -70,7 +76,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
-  padding: 10px;
+  padding: 12px;
   border-radius: 12px;
 }
 .score-reaction {
@@ -78,14 +84,13 @@ body {
 }
 .score-reaction .score-corner span {
   color: hsl(0, 100%, 67%);
-  vertical-align: top;
+ 
 }
 .score-Memory {
   background-color: hsl(39, 100%, 56%, 0.1);
 }
 .score-Memory .score-corner span {
   color: hsl(39, 100%, 56%);
-  vertical-align: top;
 }
 
 .score-verbal {
@@ -93,20 +98,23 @@ body {
 }
 .score-verbal .score-corner span {
   color: hsl(166, 100%, 37%);
-  vertical-align: top;
 }
 .score-visuabl {
   background-color: hsl(234, 85%, 45%, 0.1);
 }
 .score-visuabl .score-corner span {
   color: hsl(234, 85%, 45%);
-  vertical-align: top;
 }
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
+.white .text p{
+  font-size: 17px;}
+  .black-text{
+    color: hsl(224, 30%, 27%);
+    font-weight: bold;
+  }
+   .gray-text{
+    color: hsl(224, 30%, 27%,0.4);
+    font-weight: bold;
+  }
 
-.hanken-grotesk-<uniquifier> {
-  font-family: "Hanken Grotesk", sans-serif;
-  
-  font-style: normal;
-} */
+
+
