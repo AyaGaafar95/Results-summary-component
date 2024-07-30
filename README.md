@@ -1,3 +1,3 @@
 # Results-summary-component
 front-end mentor challenge
-# Jurney of master CSS 
+# journey of master CSS 
