@@ -115,6 +115,20 @@ body {
     color: hsl(224, 30%, 27%,0.4);
     font-weight: bold;
   }
+button{
+  width: 100%;
+  color: white;
+  background-color: hsl(224, 30%, 27%);
+  padding: 12px 25px;
+border: none;
+  border-radius: 25px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 22px;
+  margin-top: 30px;
 
+}
+button:hover{
+  background-color: hsla(224, 43%, 32%, 0.955);
 
+}
 
