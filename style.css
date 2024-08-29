@@ -134,18 +134,20 @@ button:hover{
 
 @media (max-width:760px){
   .blue{
-    width: 100%;
-    padding: 0px;
+    /* width: 80%; */
+    margin: 0 auto;
+    padding:20px;
+    width: 90%;
     border-radius: 0px;
     border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 20px; 
   }
   .white{
-    padding:10px;
-    width: 80%;
+    padding:20px;
+    width: 90%;
     margin: 0 auto;
   }
-  .blue .text{
+  .blue .text , .white .text{
     padding: 20px;
     text-align: center;
     
